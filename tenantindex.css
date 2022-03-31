@@ -47,6 +47,14 @@ body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
+.items{
+    border: rgb(124, 117, 117) 2px solid;
+    margin-inline: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: 5rem; */
+    /* height: 6rem; */
+}
 
 .sb-example-1{
     
@@ -93,13 +101,14 @@ body{
 }
 
 .btn1{
+    font-weight: bold;
     margin-inline: 1rem;
     padding: 17px 40px;
     border-radius: 50px;
     border: 0;
     background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: 15px;
     transition: all .5s ease;
