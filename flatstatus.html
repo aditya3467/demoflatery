@@ -27,6 +27,70 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">  
 </body>
 
+  <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" style="height: 1rem; width: 10rem;">
+           <img src="./logo1.png"  alt="">
+            
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+              <a href="" class="items">My Bookings</a>
+              <a href="" class="items">Pay Rent</a>
+              <button class="btn1">
+                List a Property
+            </button>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="signup.html" class="mr-5 hover:text-gray-900">Sign Up</a>
+                <a href="login.html" class="mr-5 hover:text-gray-900">Login</a>
+                
+              </nav>
+          </nav>
+         
+        </div>
+      </header>
+
+
+    <div class="container-1">
+        <H1>INDIA'S LEADING PROPERTY HANDLER</H1>
+    </div>
+    <div class="container-2">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">BUY</button>
+            <button type="button" class="btn btn-secondary">RENT</button>
+            <button type="button" class="btn btn-secondary">COMMERCIAL</button>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="f-group">
+            <label for=""></label>
+            <select name="select1" id="select1" class="label1" onchange="populate(this.id,'select2')">
+                <option value="">choose city</option>
+                <option value="chandigarh">chandigarh</option>
+                <option value="mohali">mohali</option>
+            </select>
+
+        </div>
+        <!-- <div class="f-group">
+            <label for="">area</label>
+            <select name="select2" id="select2">
+               
+            </select>
+        </div> -->
+        <div class="sb-example-1">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="Search your localities">
+               <button type="submit" class="searchButton" onclick="window.location.href='./rent.html'">
+                 <i class="fa fa-search"></i>
+              </button>
+              <div class="autocom" >
+                  
+              </div>
+            </div>
+         </div>
+
+  
+  
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
