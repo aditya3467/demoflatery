@@ -1,0 +1,40 @@
+.header{
+    height: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.detail{
+    width: 35rem;
+
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    width: 8rem;
+
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header span{
+    color:  rgb(109, 112, 114);
+}
+.deposit{
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
