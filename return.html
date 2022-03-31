@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../Style/return.css">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<link rel="stylesheet" href="path/to/fontawesome.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" style="height: 1rem; width: 10rem;">
+           <img src="../resources/logo1.png"  alt="">
+            
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+              <a href="" class="items">My Bookings</a>
+              <a href="" class="items">Pay Rent</a>
+              <button class="btn1">
+                List a Property
+            </button>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <div class="userlogo">
+                    <img src="../resources/user.png" alt="">
+
+
+                </div>
+                <div class="name">Welcome, Aditya</div>
+                
+              </nav>
+          </nav>
+         
+        </div>
+      </header>
+
+
+    <div class="container-1">
+        <H1>INDIA'S LEADING PROPERTY HANDLER</H1>
+    </div>
+    <div class="container-2">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">BUY</button>
+            <button type="button" class="btn btn-secondary">RENT</button>
+            <button type="button" class="btn btn-secondary">COMMERCIAL</button>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="f-group">
+            <label for=""></label>
+            <select name="select1" id="select1" class="label1" onchange="populate(this.id,'select2')">
+                <option value="">choose city</option>
+                <option value="chandigarh">chandigarh</option>
+                <option value="mohali">mohali</option>
+            </select>
+
+        </div>
+        <!-- <div class="f-group">
+            <label for="">area</label>
+            <select name="select2" id="select2">
+               
+            </select>
+
+        </div> -->
+        <div class="sb-example-1">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="Chandigarh">
+               <button type="submit" class="searchButton" onclick="window.location.href='./rent.html'">
+                 <i class="fa fa-search"></i>
+              </button>
+              <div class="autocom" >
+                  
+              </div>
+            </div>
+         </div>
+
+         <!-- <script>
+             function populate(s1,s2){
+                 var s1= document.getElementById(s1)
+                 var s2= document.getElementById(s2)
+                 s2.innerHTML="";
+
+                 if(s1.value== "chandigarh")
+                 {
+                     var optionarray= ['sec22|Sec22','sec17|Sec17']
+                 }
+
+                 for(var option in optionarray)
+                 {
+                     var pair=optionarray[option].split("|");
+                     var newOption =document.createElement("li");
+                     newOption.value=pair[0];
+                     newOption.innerHTML=pair[1];
+                     s2.option.add(newOption);
+
+                 }
+             }
+         </script> -->
+         <script>
+             function populate(s1,s2){
+                 var s1= document.getElementById(s1)
+                 var s2= document.getElementById(s2)
+                 s2.innerHTML="";
+
+                 if(s1.value == "chandigarh")
+                 {
+                     var optionArray= ['sec22|Sec22','sec17|Sec17']
+                 }
+
+                 for(var option in optionarray)
+                 {
+                     var pair=optionArray[option].split("|");
+                     var newOption =document.createElement("option");
+                     newOption.value=pair[0];
+                     newOption.innerHTML=pair[1];
+                     s2.option.add(newOption);
+
+                 }
+             }
+         </script>
+        
+        
+    </div>
+
+
+    <div class="container-4">
+        <p>Are you a Property Owner</p>
+        <button class="btn1">
+            Post a Free Property Ad
+        </button>
+    </div>
+
+    <div class="container-5">
+        <p>Extra means more... Get services at your doorstep!</p>
+    </div>
+
+    
+        <div class="header">
+            <a class="col"><div class="services"> <img src="../resources/rental.jpeg" alt="">  Rental Agreement</div></a>
+            <a class="col"><div class="services"> <img src="../resources/payrent.jpeg" alt=""> Pay Rent</div></a>
+            <a class="col"><div class="services"> <img src="../resources/refer.jpeg" alt=""> Refer & Earn</div></a>
+            <a class="col"><div class="services"> <img src="../resources/painting.jpeg" alt=""> Painting & Cleaning</div></a>
+            <a class="col"><div class="services"> <img src="../resources/packers.jpeg" alt=""> Packer's & Movers</div></a>
+            <a class="col"><div class="services"> <img src="../resources/nobroker.jpeg" alt=""> No Brokerage for NRI's</div></a>
+        </div><br>
+    
+        <h2><span>Why US!</span></h2> <br>
+    
+        <div class="header1">
+            <a class="col"><div class="services1"> <img src="../resources/avoid.jpeg" alt="">  Avoid Broker <span>We directly connect you to verified owners to save brokerage</span></div></a>
+            <a class="col"><div class="services1"> <img src="../resources/listing.jpeg" alt=""> Free Listing <span>Easy Listing Process. Also using Whastapp</span> </div></a>
+            <a class="col"><div class="services1"> <img src="../resources/shortlist.jpeg" alt=""> Shortlist Without Visit <span>Extensive information makes it easy </span> </div></a>
+            <a class="col"><div class="services1"> <img src="../resources/rentalAg.jpeg" alt=""> Rental Agreement <span>Assistance in creating Rental Agreement & Paper Work </span> </div></a>
+        </div><br>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
