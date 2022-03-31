@@ -1,0 +1,16 @@
+.cont{
+    background-color: bisque;
+      
+}
+/* /Confirm page/ */
+.conf img{
+    margin-left: 130px;
+}
+.conf{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: #00acee;
+}
+.text-capitalize{
+    font-size: 40px;
+}
