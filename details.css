@@ -1,0 +1,71 @@
+.heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-1{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left{
+    border: 2px black solid;
+    width: 50%;
+    padding: 10px;
+}
+.right{
+    border: 2px black solid;
+    width: 50%;
+    padding: 10px;
+}
+.paynow{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.4rem;
+    text-align: center;
+    color: white;
+    background-color: #343535;
+}
+
+.btn1{
+    margin-inline: 1rem;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    color: black;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .btn1:hover {
+    letter-spacing: 3px;
+    background-color: rgb(243, 102, 9);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(243, 102, 9) 0px 7px 29px 0px;
+   }
+   
+   .btn1:active {
+    letter-spacing: 3px;
+    background-color:rgb(243, 102, 9);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(243, 102, 9)0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
