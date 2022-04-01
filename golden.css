@@ -18,6 +18,21 @@
     color: hsl(0, 0%, 100%);
     box-shadow: rgb(243, 102, 9) 0px 7px 29px 0px;
    }
+
+
+.similar{
+    width: 100%;
+    font-size:40px;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
    
    .btn1:active {
     letter-spacing: 3px;
